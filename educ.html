@@ -3,58 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Education Background</title>
+  <title>Educational Background</title>
   <style>
     body {
-      font-family: "Poppins", Arial, sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #1e90ff, #00bfff);
+      color: #fff;
       margin: 0;
       padding: 0;
     }
-    .education-section {
-      max-width: 600px;
-      background-color: #fff;
-      margin: 50px auto;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    .container {
+      max-width: 700px;
+      background: #ffffff15;
+      margin: 80px auto;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
     }
-    h2 {
-      color: #2c3e50;
-      border-bottom: 2px solid #3498db;
-      padding-bottom: 10px;
+
+    h1 {
+      text-align: center;
+      font-size: 2.2em;
+      margin-bottom: 10px;
     }
-    .school-name {
-      font-size: 1.3em;
+
+    .highlight {
+      color: #ffd700;
       font-weight: bold;
-      color: #34495e;
     }
-    .strand {
-      color: #3498db;
-      font-weight: 600;
+
+    .edu-details {
+      margin-top: 20px;
+      line-height: 1.8;
+      font-size: 1.1em;
     }
-    .achievement {
-      background-color: #eaf6ff;
-      border-left: 5px solid #3498db;
-      padding: 10px;
-      margin-top: 15px;
-      border-radius: 5px;
-      font-style: italic;
+
+    .badge {
+      display: inline-block;
+      background: #ffd700;
+      color: #1e1e1e;
+      font-weight: bold;
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-top: 10px;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Educational Background</h1>
+    <p class="edu-details">
+      I am currently studying under the <span class="highlight">Technical-Vocational-Livelihood (TVL)</span> strand, 
+      specializing in <span class="highlight">Computer Servicing System</span>.  
+      <br><br>
+      Through dedication and consistent effort, I have achieved outstanding academic performance 
+      and was recognized as the <span class="highlight">Top 1 Student</span> in our class.
+    </p>
+    <div class="badge">🏆 Top 1 - Computer Servicing System</div>
 
-  <div class="education-section">
-    <h2>Education Background</h2>
-    <p class="school-name">Bankal National High School</p>
-    <p class="strand">Technical-Vocational-Livelihood (TVL) Track — Computer Systems Servicing (CSS) Strand</p>
-    <p>Graduated: <strong>Class of 2025</strong></p>
-    <div class="achievement">
-      🏅 Achieved <strong>Top 1</strong> in the graduating class
-    </div>
+    <footer>
+      © 2025 | Educational Profile
+    </footer>
   </div>
-
 </body>
 </html>
